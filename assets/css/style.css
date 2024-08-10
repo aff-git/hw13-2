@@ -253,13 +253,13 @@ h5:hover {
 
 
 /* Mobile burger module */
-@media (max-width: 768px) {
+@media (min-width: 0px) {
     .main-header > .nav {
         background: black;
-        width: 100%; /* если не указать width в 1000 px, то чёрная полоса будет выезжать за границу картинки */
+        width: 100%;
         display: none;
     }
-    
+
     #main-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -275,6 +275,7 @@ h5:hover {
         gap: 20px;
         padding: 20px;                 
     }
+
     .sixth {
         display: grid;
         grid-template-columns: 1fr;
@@ -299,15 +300,20 @@ h5:hover {
         grid-template-areas: "zero zero zero"
                              "one two three";
         gap: 50px;
-        /* row-gap: 50px; */
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     } 
    
     /*Burger's hiding */
     .bg-black {
-        display:none; 
+        display: none; 
     }
+
+    /* Second Nav's appears */
+    .main-header > .nav  {
+        display: flex;
+    }
+
 
     #main-container {
         display: grid;
@@ -323,4 +329,6 @@ h5:hover {
                              "card-8"; */
         gap: 20px;
         }
+
+
 }
