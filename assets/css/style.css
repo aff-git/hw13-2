@@ -319,16 +319,20 @@ h5:hover {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        /* grid-template-areas: "card-1"
+        grid-template-areas: "card-1"
                              "card-2"
                              "card-3"
                              "card-4"
                              "card-5"
                              "card-6"
                              "card-7"
-                             "card-8"; */
+                             "card-8";
         gap: 20px;
         }
 
-
+        .sixth {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "information   customer-service    extras  my-account"; 
+            text-align: start; 
 }
