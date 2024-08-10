@@ -335,4 +335,5 @@ h5:hover {
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-areas: "information   customer-service    extras  my-account"; 
             text-align: start; 
-}
+    }
+ }
